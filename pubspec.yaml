@@ -1,0 +1,45 @@
+name: taully
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 2.2.1+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.6
+  video_player: ^2.5.0
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
+  firebase_storage: ^12.4.7
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  shared_preferences: ^2.2.2
+  http: ^1.0.0
+  mailer: ^6.0.1
+  cloud_functions: ^5.5.2
+  google_fonts: ^6.1.0
+  decimal: ^2.3.2
+  firebase_messaging: ^15.2.9
+  flutter_local_notifications: ^17.1.2
+  lottie: ^3.3.2
+  url_launcher: ^6.1.10
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+ 
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/imgtaully/Taully_remo.png
+    - assets/videos/Taully_remo.mp4
+    - assets/animations/success.json
